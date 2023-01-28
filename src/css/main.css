@@ -541,25 +541,39 @@ footer{
     #get-the-game .item-store .left{
         width: 100%;
     }
-
+    
     #get-the-game .item-store .left img{
         width: 300px;
     }
-
+    
     #get-the-game .item-store .right {
         text-align: center;
         width: 100%;
     }
-
+    
     footer{
         height: 400px;
         background-position: center center;
     }
-
+    
 }
 
 @media screen and (max-width:360px) {
     #get-the-game .item-store .left img{
         width: 150px;
+    }
+}
+
+@media screen and (min-width: 1930px) {
+    #multi-player{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 110vh;
+    }
+    
+    .info{
+        font-size: 23px;
+        transform: translateX(-100px);
     }
 }
